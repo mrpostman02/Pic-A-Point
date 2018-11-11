@@ -1,0 +1,149 @@
+      body{
+		background-image: url('../images/banner.jpg');
+		background-attachment: fixed;
+		background-size: 100% 100%;
+}
+	  
+	  
+	  #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        font-size: 12px;
+      }
+
+    div.top {
+   	position: center;
+ 	background: rgba(0,0,0,0.4);
+  	padding: 4em 4em 2em;
+  	max-width: 100%
+  	margin: 5px auto 0;
+  	box-shadow: 0 0 1em #222;
+  	border-radius: 2px;}
+	} 
+
+      #map {
+        width: 100%;
+      }
+      #listing {
+        position: absolute;
+        width: 200px;
+        height: 500px;
+        overflow: auto;
+        left: 0px;
+        top: 480px;
+        cursor: pointer;
+        overflow-x: hidden;
+        color: black;
+      }
+      #findhotels {
+        position: absolute;
+        text-align: right;
+        width: 100px;
+        font-size: 14px;
+        padding: 4px;
+        z-index: 5;
+        background-color: #fff;
+      }
+      #locationField {
+        position: absolute;
+        width: 190px;
+        height: 25px;
+        left: 108px;
+        top: 0px;
+        z-index: 5;
+        background-color: #fff;
+      }
+      #controls {
+        position: absolute;
+        left: 300px;
+        width: 140px;
+        top: 0px;
+        z-index: 5;
+        background-color: #fff;
+      }
+      #autocomplete {
+        width: 100%;
+      }
+      #country {
+        width: 100%;
+      }
+      .placeIcon {
+        width: 20px;
+        height: 34px;
+        margin: 4px;
+      }
+      .hotelIcon {
+        width: 24px;
+        height: 24px;
+      }
+      #resultsTable {
+        border-collapse: collapse;
+        width: 240px;
+      }
+      #rating {
+        font-size: 13px;
+        font-family: Arial Unicode MS;
+      }
+      .iw_table_row {
+        height: 18px;
+      }
+      .iw_attribute_name {
+        font-weight: bold;
+        text-align: right;
+      }
+      .iw_table_icon {
+        text-align: right;
+      }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+div.footer {
+	position:fixed;
+	left:0;
+	bottom: 0;
+	width:100%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}

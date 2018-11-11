@@ -1,0 +1,55 @@
+body{
+background-image: url('../images/banner_charity.jpg');
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+#container {
+width:850px;
+margin:auto;
+
+}
+
+
+h3 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+	
+
+	text-decoration: none;
+}
+h6 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+p {
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 4px;
+	  padding-left: 0px;
+	  color: white;
+}
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}

@@ -1,0 +1,274 @@
+body{
+background-image: url('../images/banner.jpg');
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+
+#container {
+width:1150px;
+margin:auto;
+}
+
+#container a {
+text-decoration:none;
+}
+
+#container a:hover {
+color:#ff0000;
+}
+
+.sign-in-form {
+	position: center;
+ 	background: rgba(0,0,0,0.4);
+  	padding: 4em 4em 2em;
+  	max-width: 100%;
+  	margin: 100px auto 0;
+  	box-shadow: 0 0 1em #222;
+  	border-radius: 2px;}
+}
+
+.sign-in-form h1 {
+color:#73cfff;
+text-shadow:2px 2px 2px #000000;
+margin:auto;
+}
+
+.sign-in-form h2 {
+color:#73cfff;
+text-shadow:2px 2px 2px #000000;
+margin-left:120px;
+}
+
+.sign-in-form b {
+color:#000000;
+margin-left:780px;
+}
+
+.sign-in-form strong {
+margin-left:210px;
+}
+
+.sign-in-form  hr{
+width:410px;
+float:left;
+}
+
+.sign-in-form label {
+color:#000000;
+font-size:19px;
+font-weight:bold;
+}
+
+.form-1 {
+width:300px;
+text-indent:5px;
+height:25px;
+font-size:19px;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+}
+
+.form-2 {
+width:60px;
+text-indent:5px;
+height:25px;
+font-size:19px;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+}
+
+.btn-sign-in {
+color:#000000;
+font-size:19px;
+width:200px;
+line-height:30px;
+background-color:#ffffff;
+border:2px solid #0bacff;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+-o-border-radius:100px;
+margin-left:210px;
+}
+
+.btn-sign-in:hover {
+color:#ffffff;
+background-color:#0bacff;
+border:2px solid #0bacff;
+}
+
+.btn-sign-up {
+color:#ffffff;
+font-size:19px;
+width:100px;
+line-height:30px;
+background-color:#0bacff;
+border:2px solid #0bacff;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+-o-border-radius:100px;
+}
+
+.btn-sign-up:hover {
+color:#ffffff;
+font-size:19px;
+width:100px;
+line-height:30px;
+background-color:#0488cd;
+border:2px solid #0488cd;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+-o-border-radius:100px;
+}
+
+.sign-up-form-1 {
+width:700px;
+background-color:#F4F4F4;
+margin:auto;
+}
+
+.sign-up-form-1 table {
+width:100%;
+background-color:#F4F4F4;
+margin:auto;
+}
+
+.sign-up-form-1 legend {
+font-size:30px;
+font-weight:bold;
+}
+
+#login-box {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+
+h3 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+	
+
+	text-decoration: none;
+}
+h6 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+p {
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 4px;
+	  padding-left: 0px;
+	  color: white;
+}
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+
+input[type="submit"] {
+  margin-top: 28px;
+  width: 300px;
+  height: 32px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+button [type="submit"] {
+  margin-top: 28px;
+  width: 100px;
+  height: 40px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+
+input[type="reset"]:hover,
+input[type="reset"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="reset"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}

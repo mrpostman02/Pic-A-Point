@@ -1,0 +1,86 @@
+body{
+background-image: url('../images/banner_charity.jpg');
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+#header {
+background-color:#008B8B;
+width:780;
+height:109;
+margin-top:-8px;
+}
+
+.head-view {
+margin:auto;
+width:1000px;
+line-height:50px;
+}
+
+.head-view ul {
+width: 1000px;
+margin: auto;
+
+}
+
+.head-view  li {
+display: inline;
+color: #fff;
+margin: 0px 80px 0px 5px;
+}
+
+
+.btn-sign-in {
+color:#ffffff;
+font-size:19px;
+width:100px;
+line-height:30px;
+background-color:	#333;
+border:2px solid 	white;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+-o-border-radius:100px;
+}
+
+.btn-sign-in:hover {
+color:#ffffff;
+background-color:#0bacff;
+border:2px solid #0bacff;
+}
+
+.btn-sign-up {
+color:#ffffff;
+font-size:19px;
+width:100px;
+line-height:30px;
+background-color: #333;
+border:2px solid 	white;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+-o-border-radius:100px;
+}
+
+.btn-sign-up:hover {
+color:#ffffff;
+background-color:#0488cd;
+border:2px solid #0488cd;
+}
+
+#container {
+width:1200px;
+margin:auto;
+}
+
+.image-display {
+width:850px;
+margin:auto;
+}
+
+.img-style {
+width:110%;
+height:130%;
+}
+
+
